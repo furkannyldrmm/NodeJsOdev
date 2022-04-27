@@ -1,7 +1,7 @@
 const express =require("express")  
 const mongoose =require("mongoose") 
 const exphbs=require("express-handlebars")
-const { Console } = require("console")
+const console  = require("console")
 
 const app = express()  
 const PORT=3000
